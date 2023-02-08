@@ -22,5 +22,14 @@
   },
   "great-lesson.qmd": {
     "great-lesson.html": "48c6c8e6"
+  },
+  "r-intro.qmd": {
+    "r-intro.html": "a16fae48"
+  },
+  "writing-dmps.qmd": {
+    "writing-dmps.html": "2b07299e"
+  },
+  "rmarkdown-intro.qmd": {
+    "rmarkdown-intro.html": "d71adc3c"
   }
 }

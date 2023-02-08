@@ -1,0 +1,39 @@
+# Intro to RMarkdown
+
+## Learning Objectives
+
+-   explore an example of RMarkdown as literate analysis
+
+-   learn markdown syntax
+
+-   write and run R code in RMarkdown
+
+-   build and knit an example document
+
+## What's so great about literate analysis and markdown?
+
+The concept of literate analysis dates to a [1984 article by Donald Knuth](http://www.literateprogramming.com/knuthweb.pdf). In this article, Knuth proposes a reversal of the programming paradigm.
+
+If our aim is to make scientific research more transparent, the appeal of this paradigm reversal is immediately apparent. All too often, computational methods are written in such a way as to be borderline incomprehensible - even to the person who originally wrote the code! The reason for this is obvious, computers interpret information very differently than people do. By switching to a literate analysis model, you help enable human understanding of what the computer is doing. As Knuth describes, in the literate analysis model, the author is an \"essayist\" who chooses variable names carefully, explains what they mean, and introduces concepts in the analysis in a way that facilitates understanding.
+
+RMarkdown is an excellent way to generate literate analysis, and a reproducible workflow. RMarkdown is a combination of two things - R, the programming language, and markdown, a set of text formatting directives. In R, the language assumes that you are writing R code, unless you specify that you are writing prose (using a comment, designated by `#`). The paradigm shift of literate analysis comes in the switch to RMarkdown, where instead of assuming you are writing code, Rmarkdown assumes that you are writing prose unless you specify that you are writing code. This, along with the formatting provided by markdown, encourages the \"essayist\" to write understandable prose to accompany the code that explains to the human-beings reading the document what the author told the computer to do. This is in contrast to writing just R code, where the author telling to the computer what to do with maybe a smattering of terse comments explaining the code to a reader.
+
+Before we dive in deeper, let\'s look at an example of what literate analysis with RMarkdown can look like using a real example. [**Here**](https://nceas.github.io/sasap-training/materials/reproducible_research_in_r_fairbanks/example-brood-table-analysis.html) is an example of a real analysis workflow written using RMarkdown.
+
+There are a few things to notice about this document, which assembles a set of similar data sources on salmon brood tables with different formatting into a single data source.
+
+-   It introduces the data sources using in-line images, links, interactive tables, and interactive maps.
+
+-   An example of data formatting from one source using R is shown.
+
+-   The document executes a set of formatting scripts in a directory to generate a single merged file.
+
+-   Some simple quality checks are performed (and their output shown) on the merged data.
+
+-   Simple analysis and plots are shown.
+
+In addition to achieving literate analysis, this document also represents a **reproducible analysis.** Because the entire merging and quality control of the data is done using the R code in the RMarkdown, if a new data source and formatting script are added, the document can be run all at once with a single click to re-generate the quality control, plots, and analysis of the updated data.
+
+RMarkdown is an amazing tool to use for collaborative research, so we will spend some time learning it well now, and use it through the rest of the course.
+
+\

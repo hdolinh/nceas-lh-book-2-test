@@ -26,10 +26,11 @@ book:
     - part: intro.qmd
       chapters:
         - r-git-github-setup.qmd
-        - another-topic.qmd
+        - r-intro.qmd
     - part: next-part.qmd
       chapters:
-        - great-lesson.qmd
+        - rmarkdown-intro.qmd
+        - writing-dmps.qmd
     - references.qmd
 
 bibliography: references.bib
