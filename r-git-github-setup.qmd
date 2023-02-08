@@ -1,0 +1,14 @@
+# R/RStudio and Git/GitHub Setup
+
+## Learning Objectives
+
+In this lesson, you will learn:
+
+-   How to check to make sure your RStudio environment is set up properly for analysis
+-   How to set up git
+
+## Logging into the RStudio server
+
+To help prevent us from spending most of this lesson remotely troubleshooting the myriad of issues that can arise when setting up the R, RStudio, and git environments, we have chosen to have everyone work on a remote server with all of the software you need installed. We will be using a special kind of RStudio just for servers called, aptly, RStudio Server. If you have never worked on a remove server before, you can think of it like working on a different computer via the internet. Note that the server has no knowledge of the files on your local filesystem, but it is easy to transfer files from the server to your local computer, and vice-versa, using the RStudio server interface.
+
+Here are the instructions for logging in and getting set up:

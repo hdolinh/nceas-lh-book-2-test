@@ -1,0 +1,44 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Name of Data Science Course"
+  author: "Learning Hub Team"
+  date: today
+  date-format: iso
+  search: true
+  repo-url: https://github.com/hdolinh/nceas-lh-qw-book-test
+  downloads: [pdf, epub]
+  sharing: [twitter, linkedin]
+  
+  sidebar: 
+    title: "Course Materials"
+    style: docked
+    background: light
+
+# NoteHD: not fully sure how hypothesis commenting works but could be cool  
+  # comments:
+  #   hypothesis: true
+  
+  chapters:
+    - index.qmd
+    - part: intro.qmd
+      chapters:
+        - r-git-github-setup.qmd
+        - another-topic.qmd
+    - part: next-part.qmd
+      chapters:
+        - great-lesson.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+

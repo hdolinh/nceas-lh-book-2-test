@@ -1,0 +1,26 @@
+{
+  "index.qmd": {
+    "index.html": "f13ff96d"
+  },
+  "intro.qmd": {
+    "intro.html": "5ff99d3b"
+  },
+  "summary.qmd": {
+    "summary.html": "64fd2624"
+  },
+  "references.qmd": {
+    "references.html": "7c3c60e3"
+  },
+  "another-topic.qmd": {
+    "another-topic.html": "9588a0d5"
+  },
+  "r-git-github-setup.qmd": {
+    "r-git-github-setup.html": "bf8880c9"
+  },
+  "next-part.qmd": {
+    "next-part.html": "107b1a84"
+  },
+  "great-lesson.qmd": {
+    "great-lesson.html": "48c6c8e6"
+  }
+}
