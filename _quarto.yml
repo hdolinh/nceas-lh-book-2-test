@@ -8,7 +8,7 @@ book:
   date: today
   date-format: iso
   search: true
-  repo-url: https://github.com/hdolinh/nceas-lh-qw-book-test
+  repo-url: https://github.com/hdolinh/nceas-lh-book-2-test
   downloads: [pdf, epub]
   sharing: [twitter, linkedin]
   
