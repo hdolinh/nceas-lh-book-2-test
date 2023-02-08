@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Name of Data Science Course - Next Part</title>
+<title>Name of Data Science Course - 3&nbsp; Intro to RMarkdown</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./rmarkdown-intro.html" rel="next">
-<link href="./r-intro.html" rel="prev">
+<link href="./writing-dmps.html" rel="next">
+<link href="./next-part.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -70,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Next Part</h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Intro to RMarkdown</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -153,7 +153,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./next-part.html" class="sidebar-item-text sidebar-link active">Next Part</a>
+            <a href="./next-part.html" class="sidebar-item-text sidebar-link">Next Part</a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -161,7 +161,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./rmarkdown-intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Intro to RMarkdown</span></a>
+  <a href="./rmarkdown-intro.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Intro to RMarkdown</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -185,8 +185,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#objectives" id="toc-objectives" class="nav-link active" data-scroll-target="#objectives">Objectives</a></li>
-  <li><a href="#arctic-data-center-overview" id="toc-arctic-data-center-overview" class="nav-link" data-scroll-target="#arctic-data-center-overview">Arctic Data Center Overview</a></li>
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link active" data-scroll-target="#learning-objectives"><span class="toc-section-number">3.1</span>  Learning Objectives</a></li>
+  <li><a href="#whats-so-great-about-literate-analysis-and-markdown" id="toc-whats-so-great-about-literate-analysis-and-markdown" class="nav-link" data-scroll-target="#whats-so-great-about-literate-analysis-and-markdown"><span class="toc-section-number">3.2</span>  What’s so great about literate analysis and markdown?</a></li>
   </ul>
 </nav>
     </div>
@@ -195,7 +195,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Next Part</h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Intro to RMarkdown</span></h1>
 </div>
 
 
@@ -210,18 +210,33 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="objectives" class="level2">
-<h2 class="anchored" data-anchor-id="objectives">Objectives</h2>
+<section id="learning-objectives" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="learning-objectives"><span class="header-section-number">3.1</span> Learning Objectives</h2>
 <ul>
-<li><p>The mission and structure of the Arctic Data Center</p></li>
-<li><p>How the Arctic Data Center supports the research community</p></li>
-<li><p>About data policies from the NSF Arctic program</p></li>
+<li><p>explore an example of RMarkdown as literate analysis</p></li>
+<li><p>learn markdown syntax</p></li>
+<li><p>write and run R code in RMarkdown</p></li>
+<li><p>build and knit an example document</p></li>
 </ul>
 </section>
-<section id="arctic-data-center-overview" class="level2">
-<h2 class="anchored" data-anchor-id="arctic-data-center-overview">Arctic Data Center Overview</h2>
-<p>The Arctic Data Center is the primary data and software repository for the Arctic section of National Science Foundation’s Office of Polar Programs (NSF OPP).</p>
-<p>We’re best known in the research community as a data archive – researchers upload their data to preserve it for the future and make it available for re-use. This isn’t the end of that data’s life, though. These data can then be downloaded for different analyses or synthesis projects. In addition to being a data discovery portal, we also offer top-notch tools, support services, and training opportunities. We also provide data rescue services.</p>
+<section id="whats-so-great-about-literate-analysis-and-markdown" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="whats-so-great-about-literate-analysis-and-markdown"><span class="header-section-number">3.2</span> What’s so great about literate analysis and markdown?</h2>
+<p>The concept of literate analysis dates to a <a href="http://www.literateprogramming.com/knuthweb.pdf">1984 article by Donald Knuth</a>. In this article, Knuth proposes a reversal of the programming paradigm.</p>
+<p>If our aim is to make scientific research more transparent, the appeal of this paradigm reversal is immediately apparent. All too often, computational methods are written in such a way as to be borderline incomprehensible - even to the person who originally wrote the code! The reason for this is obvious, computers interpret information very differently than people do. By switching to a literate analysis model, you help enable human understanding of what the computer is doing. As Knuth describes, in the literate analysis model, the author is an "essayist" who chooses variable names carefully, explains what they mean, and introduces concepts in the analysis in a way that facilitates understanding.</p>
+<p>RMarkdown is an excellent way to generate literate analysis, and a reproducible workflow. RMarkdown is a combination of two things - R, the programming language, and markdown, a set of text formatting directives. In R, the language assumes that you are writing R code, unless you specify that you are writing prose (using a comment, designated by <code>#</code>). The paradigm shift of literate analysis comes in the switch to RMarkdown, where instead of assuming you are writing code, Rmarkdown assumes that you are writing prose unless you specify that you are writing code. This, along with the formatting provided by markdown, encourages the "essayist" to write understandable prose to accompany the code that explains to the human-beings reading the document what the author told the computer to do. This is in contrast to writing just R code, where the author telling to the computer what to do with maybe a smattering of terse comments explaining the code to a reader.</p>
+<p>Before we dive in deeper, let's look at an example of what literate analysis with RMarkdown can look like using a real example. <a href="https://nceas.github.io/sasap-training/materials/reproducible_research_in_r_fairbanks/example-brood-table-analysis.html"><strong>Here</strong></a> is an example of a real analysis workflow written using RMarkdown.</p>
+<p>There are a few things to notice about this document, which assembles a set of similar data sources on salmon brood tables with different formatting into a single data source.</p>
+<ul>
+<li><p>It introduces the data sources using in-line images, links, interactive tables, and interactive maps.</p></li>
+<li><p>An example of data formatting from one source using R is shown.</p></li>
+<li><p>The document executes a set of formatting scripts in a directory to generate a single merged file.</p></li>
+<li><p>Some simple quality checks are performed (and their output shown) on the merged data.</p></li>
+<li><p>Simple analysis and plots are shown.</p></li>
+</ul>
+<p>In addition to achieving literate analysis, this document also represents a <strong>reproducible analysis.</strong> Because the entire merging and quality control of the data is done using the R code in the RMarkdown, if a new data source and formatting script are added, the document can be run all at once with a single click to re-generate the quality control, plots, and analysis of the updated data.</p>
+<p>RMarkdown is an amazing tool to use for collaborative research, so we will spend some time learning it well now, and use it through the rest of the course.</p>
+<p><br>
+</p>
 
 
 </section>
@@ -362,13 +377,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./r-intro.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction to R</span></span>
+      <a href="./next-part.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Next Part</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./rmarkdown-intro.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Intro to RMarkdown</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./writing-dmps.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Writing Data Management Plans</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

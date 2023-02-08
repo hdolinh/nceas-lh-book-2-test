@@ -70,18 +70,18 @@
     "text": "1.2 Logging into the RStudio server\nTo help prevent us from spending most of this lesson remotely troubleshooting the myriad of issues that can arise when setting up the R, RStudio, and git environments, we have chosen to have everyone work on a remote server with all of the software you need installed. We will be using a special kind of RStudio just for servers called, aptly, RStudio Server. If you have never worked on a remove server before, you can think of it like working on a different computer via the internet. Note that the server has no knowledge of the files on your local filesystem, but it is easy to transfer files from the server to your local computer, and vice-versa, using the RStudio server interface.\nHere are the instructions for logging in and getting set up:"
   },
   {
-    "objectID": "another-topic.html#learning-objectives",
-    "href": "another-topic.html#learning-objectives",
-    "title": "2  Another Topic",
+    "objectID": "r-intro.html#learning-objectives",
+    "href": "r-intro.html#learning-objectives",
+    "title": "2  Introduction to R",
     "section": "2.1 Learning Objectives",
-    "text": "2.1 Learning Objectives\nIn this lesson, you will learn:\n\nThings in R!\nBelieve in the possibilities"
+    "text": "2.1 Learning Objectives\n\nget oriented to the RStudio interface\nwork with R in the console\nbe introduced to built-in R functions\nlearn to use the help pages"
   },
   {
-    "objectID": "another-topic.html#lots-of-content",
-    "href": "another-topic.html#lots-of-content",
-    "title": "2  Another Topic",
-    "section": "2.2 Lots of content",
-    "text": "2.2 Lots of content"
+    "objectID": "r-intro.html#what-is-r",
+    "href": "r-intro.html#what-is-r",
+    "title": "2  Introduction to R",
+    "section": "2.2 What is R?",
+    "text": "2.2 What is R?\nThere is a vibrant community out there that is collectively developing increasingly easy to use and powerful open source programming tools. The changing landscape of programming is making learning how to code easier than it ever has been. Incorporating programming into analysis workflows not only makes science more efficient, but also more computationally reproducible. In this course, we will use the programming language R, and the accompanying integrated development environment (IDE) RStudio. R is a great language to learn for data-oriented programming because it is widely adopted, user-friendly, and (most importantly) open source!\nSo what is the difference between R and RStudio? Here is an analogy to start us off. If you were a chef, R is a knife. You have food to prepare, and the knife is one of the tools that you'll use to accomplish your task.\nAnd if R were a knife, RStudio is the kitchen. RStudio provides a place to do your work! Other tools, communication, community, it makes your life as a chef easier. RStudio makes your life as a researcher easier by bringing together other tools you need to do your work efficiently - like a file browser, data viewer, help pages, terminal, community, support, the list goes on. So it's not just the infrastructure (the user interface or IDE), although it is a great way to learn and interact with your variables, files, and interact directly with git. It's also data science philosophy, R packages, community, and more. So although you can prepare food without a kitchen and we could learn R without RStudio, that's not what we're going to do. We are going to take advantage of the great RStudio support, and learn R and RStudio together.\nSomething else to start us off is to mention that you are learning a new language here. It's an ongoing process, it takes time, you'll make mistakes, it can be frustrating, but it will be overwhelmingly awesome in the long run. We all speak at least one language; it's a similar process, really. And no matter how fluent you are, you'll always be learning, you'll be trying things in new contexts, learning words that mean the same as others, etc, just like everybody else. And just like any form of communication, there will be miscommunications that can be frustrating, but hands down we are all better off because of it.\nWhile language is a familiar concept, programming languages are in a different context from spoken languages, but you will get to know this context with time. For example: you have a concept that there is a first meal of the day, and there is a name for that: in English it's \"breakfast.\" So if you're learning Spanish, you could expect there is a word for this concept of a first meal. (And you'd be right: 'desayuno'). We will get you to expect that programming languages also have words (called functions in R) for concepts as well. You'll soon expect that there is a way to order values numerically. Or alphabetically. Or search for patterns in text. Or calculate the median. Or reorganize columns to rows. Or subset exactly what you want. We will get you increase your expectations and learn to ask and find what you're looking for."
   },
   {
     "objectID": "next-part.html#objectives",
@@ -98,17 +98,31 @@
     "text": "Arctic Data Center Overview\nThe Arctic Data Center is the primary data and software repository for the Arctic section of National Science Foundation’s Office of Polar Programs (NSF OPP).\nWe’re best known in the research community as a data archive – researchers upload their data to preserve it for the future and make it available for re-use. This isn’t the end of that data’s life, though. These data can then be downloaded for different analyses or synthesis projects. In addition to being a data discovery portal, we also offer top-notch tools, support services, and training opportunities. We also provide data rescue services."
   },
   {
-    "objectID": "great-lesson.html#learning-objectives",
-    "href": "great-lesson.html#learning-objectives",
-    "title": "3  Great Lesson",
+    "objectID": "rmarkdown-intro.html#learning-objectives",
+    "href": "rmarkdown-intro.html#learning-objectives",
+    "title": "3  Intro to RMarkdown",
     "section": "3.1 Learning Objectives",
-    "text": "3.1 Learning Objectives\nIn this lesson, you will learn:\n\nAll the things!\nGreat Scott I can’t believe it’s not butter"
+    "text": "3.1 Learning Objectives\n\nexplore an example of RMarkdown as literate analysis\nlearn markdown syntax\nwrite and run R code in RMarkdown\nbuild and knit an example document"
   },
   {
-    "objectID": "great-lesson.html#great-content-here",
-    "href": "great-lesson.html#great-content-here",
-    "title": "3  Great Lesson",
-    "section": "3.2 Great content here",
-    "text": "3.2 Great content here"
+    "objectID": "rmarkdown-intro.html#whats-so-great-about-literate-analysis-and-markdown",
+    "href": "rmarkdown-intro.html#whats-so-great-about-literate-analysis-and-markdown",
+    "title": "3  Intro to RMarkdown",
+    "section": "3.2 What’s so great about literate analysis and markdown?",
+    "text": "3.2 What’s so great about literate analysis and markdown?\nThe concept of literate analysis dates to a 1984 article by Donald Knuth. In this article, Knuth proposes a reversal of the programming paradigm.\nIf our aim is to make scientific research more transparent, the appeal of this paradigm reversal is immediately apparent. All too often, computational methods are written in such a way as to be borderline incomprehensible - even to the person who originally wrote the code! The reason for this is obvious, computers interpret information very differently than people do. By switching to a literate analysis model, you help enable human understanding of what the computer is doing. As Knuth describes, in the literate analysis model, the author is an \"essayist\" who chooses variable names carefully, explains what they mean, and introduces concepts in the analysis in a way that facilitates understanding.\nRMarkdown is an excellent way to generate literate analysis, and a reproducible workflow. RMarkdown is a combination of two things - R, the programming language, and markdown, a set of text formatting directives. In R, the language assumes that you are writing R code, unless you specify that you are writing prose (using a comment, designated by #). The paradigm shift of literate analysis comes in the switch to RMarkdown, where instead of assuming you are writing code, Rmarkdown assumes that you are writing prose unless you specify that you are writing code. This, along with the formatting provided by markdown, encourages the \"essayist\" to write understandable prose to accompany the code that explains to the human-beings reading the document what the author told the computer to do. This is in contrast to writing just R code, where the author telling to the computer what to do with maybe a smattering of terse comments explaining the code to a reader.\nBefore we dive in deeper, let's look at an example of what literate analysis with RMarkdown can look like using a real example. Here is an example of a real analysis workflow written using RMarkdown.\nThere are a few things to notice about this document, which assembles a set of similar data sources on salmon brood tables with different formatting into a single data source.\n\nIt introduces the data sources using in-line images, links, interactive tables, and interactive maps.\nAn example of data formatting from one source using R is shown.\nThe document executes a set of formatting scripts in a directory to generate a single merged file.\nSome simple quality checks are performed (and their output shown) on the merged data.\nSimple analysis and plots are shown.\n\nIn addition to achieving literate analysis, this document also represents a reproducible analysis. Because the entire merging and quality control of the data is done using the R code in the RMarkdown, if a new data source and formatting script are added, the document can be run all at once with a single click to re-generate the quality control, plots, and analysis of the updated data.\nRMarkdown is an amazing tool to use for collaborative research, so we will spend some time learning it well now, and use it through the rest of the course."
+  },
+  {
+    "objectID": "writing-dmps.html#learning-objectives",
+    "href": "writing-dmps.html#learning-objectives",
+    "title": "4  Writing Data Management Plans",
+    "section": "4.1 Learning Objectives",
+    "text": "4.1 Learning Objectives\n\nWhy create data management plans\nThe major components of data management plans\nTools that can help create a data management plan\nFeatures and functionality of the DMPTool"
+  },
+  {
+    "objectID": "writing-dmps.html#when-to-plan-the-data-life-cycle",
+    "href": "writing-dmps.html#when-to-plan-the-data-life-cycle",
+    "title": "4  Writing Data Management Plans",
+    "section": "4.2 When to plan: The Data Life Cycle",
+    "text": "4.2 When to plan: The Data Life Cycle\nShown below is one version of the Data Life Cycle that was developed by DataONE. The data life cycle provides a high level overview of the stages involved in successful management and preservation of data for use and reuse. Multiple versions of a data life cycle exist with differences attributable to variation in practices across domains or communities. It is not neccesary for researchers to move through the data life cycle in a cylical fashion and some research activities might use only part of the life cycle. For instance, a project involving meta-analysis might focus on the Discover, Integrate, and Analyze steps, while a project focused on primary data collection and analysis might bypass the Discover and Integrate steps. However, 'Plan' is at the top of the data life cycle as it is advisable to initiate your data management planning at the beginning of your research process, before any data has been collected."
   }
 ]
