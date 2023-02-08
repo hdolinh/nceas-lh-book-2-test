@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Name of Data Science Course",
+    "section": "",
+    "text": "Preface\nCourse dates: January 30, 2023 - February 3, 2023\nThis is a test book built using Quarto."
+  },
+  {
+    "objectID": "index.html#about-this-course",
+    "href": "index.html#about-this-course",
+    "title": "Name of Data Science Course",
+    "section": "About this Course",
+    "text": "About this Course\nThis 5-day in-person workshop will provide researchers with an overview of reproducible and ethical research practices, steps and methods for more easily documenting and preserving their data at the Arctic Data Center, and an introduction to programming in R. Special attention will be paid to qualitative data management, including practices working with sensitive data. Example datasets will draw from natural and social sciences, and methods for conducting reproducible research will be discussed in the context of both qualitative and quantitative data. Responsible and reproducible data management practices will be discussed as they apply to all aspects of the data life cycle. This includes ethical data collection and data sharing, data sovereignty, and the CARE principles. The CARE principles are guidelines that help ensure open data practices (like the FAIR principles) appropriately engage with Indigenous Peoples’ rights and interests."
+  },
+  {
+    "objectID": "index.html#schedule",
+    "href": "index.html#schedule",
+    "title": "Name of Data Science Course",
+    "section": "Schedule",
+    "text": "Schedule"
+  },
+  {
+    "objectID": "index.html#code-of-conduct",
+    "href": "index.html#code-of-conduct",
+    "title": "Name of Data Science Course",
+    "section": "Code of Conduct",
+    "text": "Code of Conduct\nPlease note that by participating in this activity you agree to abide by the NCEAS Code of Conduct."
+  },
+  {
+    "objectID": "index.html#acknowledgements",
+    "href": "index.html#acknowledgements",
+    "title": "Name of Data Science Course",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\nThese written materials reflect the continuous development of learning materials at the Arctic Data Center and NCEAS to support individuals to understand, adopt, and apply ethical open science practices. In bringing these materials together we recognize that many individuals have contributed to their development. The primary authors are listed alphabetically in the citation below, with additional contributors recognized for their role in developing previous iterations of these or similar materials.\nCitation: Amber E. Budden, S. Jeanette Clark, Natasha Haycock-Chavez, Noor Johnson, Matthew B. Jones. 2022. Fundamentals in Data Management for Qualitative and Quantitative Arctic Research.\nAdditional contributors: Stephanie Hampton, Jim Regetz, Bryce Mecum, Julien Brun, Julie Lowndes, Erin McLean, Andrew Barrett, David LeBauer, Jessica Guo."
+  },
+  {
+    "objectID": "index.html#license",
+    "href": "index.html#license",
+    "title": "Name of Data Science Course",
+    "section": "License",
+    "text": "License\nThis work is licensed under a Creative Commons Attribution 4.0 International License."
+  },
+  {
+    "objectID": "intro.html#objectives",
+    "href": "intro.html#objectives",
+    "title": "Welcome and Overview",
+    "section": "Objectives",
+    "text": "Objectives\n\nThe mission and structure of the Arctic Data Center\nHow the Arctic Data Center supports the research community\nAbout data policies from the NSF Arctic program"
+  },
+  {
+    "objectID": "intro.html#arctic-data-center-overview",
+    "href": "intro.html#arctic-data-center-overview",
+    "title": "Welcome and Overview",
+    "section": "Arctic Data Center Overview",
+    "text": "Arctic Data Center Overview\nThe Arctic Data Center is the primary data and software repository for the Arctic section of National Science Foundation’s Office of Polar Programs (NSF OPP).\nWe’re best known in the research community as a data archive – researchers upload their data to preserve it for the future and make it available for re-use. This isn’t the end of that data’s life, though. These data can then be downloaded for different analyses or synthesis projects. In addition to being a data discovery portal, we also offer top-notch tools, support services, and training opportunities. We also provide data rescue services."
+  },
+  {
+    "objectID": "r-git-github-setup.html#learning-objectives",
+    "href": "r-git-github-setup.html#learning-objectives",
+    "title": "1  R/RStudio and Git/GitHub Setup",
+    "section": "1.1 Learning Objectives",
+    "text": "1.1 Learning Objectives\nIn this lesson, you will learn:\n\nHow to check to make sure your RStudio environment is set up properly for analysis\nHow to set up git"
+  },
+  {
+    "objectID": "r-git-github-setup.html#logging-into-the-rstudio-server",
+    "href": "r-git-github-setup.html#logging-into-the-rstudio-server",
+    "title": "1  R/RStudio and Git/GitHub Setup",
+    "section": "1.2 Logging into the RStudio server",
+    "text": "1.2 Logging into the RStudio server\nTo help prevent us from spending most of this lesson remotely troubleshooting the myriad of issues that can arise when setting up the R, RStudio, and git environments, we have chosen to have everyone work on a remote server with all of the software you need installed. We will be using a special kind of RStudio just for servers called, aptly, RStudio Server. If you have never worked on a remove server before, you can think of it like working on a different computer via the internet. Note that the server has no knowledge of the files on your local filesystem, but it is easy to transfer files from the server to your local computer, and vice-versa, using the RStudio server interface.\nHere are the instructions for logging in and getting set up:"
+  },
+  {
+    "objectID": "another-topic.html#learning-objectives",
+    "href": "another-topic.html#learning-objectives",
+    "title": "2  Another Topic",
+    "section": "2.1 Learning Objectives",
+    "text": "2.1 Learning Objectives\nIn this lesson, you will learn:\n\nThings in R!\nBelieve in the possibilities"
+  },
+  {
+    "objectID": "another-topic.html#lots-of-content",
+    "href": "another-topic.html#lots-of-content",
+    "title": "2  Another Topic",
+    "section": "2.2 Lots of content",
+    "text": "2.2 Lots of content"
+  },
+  {
+    "objectID": "next-part.html#objectives",
+    "href": "next-part.html#objectives",
+    "title": "Next Part",
+    "section": "Objectives",
+    "text": "Objectives\n\nThe mission and structure of the Arctic Data Center\nHow the Arctic Data Center supports the research community\nAbout data policies from the NSF Arctic program"
+  },
+  {
+    "objectID": "next-part.html#arctic-data-center-overview",
+    "href": "next-part.html#arctic-data-center-overview",
+    "title": "Next Part",
+    "section": "Arctic Data Center Overview",
+    "text": "Arctic Data Center Overview\nThe Arctic Data Center is the primary data and software repository for the Arctic section of National Science Foundation’s Office of Polar Programs (NSF OPP).\nWe’re best known in the research community as a data archive – researchers upload their data to preserve it for the future and make it available for re-use. This isn’t the end of that data’s life, though. These data can then be downloaded for different analyses or synthesis projects. In addition to being a data discovery portal, we also offer top-notch tools, support services, and training opportunities. We also provide data rescue services."
+  },
+  {
+    "objectID": "great-lesson.html#learning-objectives",
+    "href": "great-lesson.html#learning-objectives",
+    "title": "3  Great Lesson",
+    "section": "3.1 Learning Objectives",
+    "text": "3.1 Learning Objectives\nIn this lesson, you will learn:\n\nAll the things!\nGreat Scott I can’t believe it’s not butter"
+  },
+  {
+    "objectID": "great-lesson.html#great-content-here",
+    "href": "great-lesson.html#great-content-here",
+    "title": "3  Great Lesson",
+    "section": "3.2 Great content here",
+    "text": "3.2 Great content here"
+  }
+]
